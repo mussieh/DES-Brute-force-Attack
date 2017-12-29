@@ -47,7 +47,7 @@ points to the source folder.
 
 ```
 
-Note: The server program was not written by me so for further information, please go here:
+Note: The server program was not written by me so for further information on the server program, please go here:
 
 https://github.com/rbaron/multichat
 
