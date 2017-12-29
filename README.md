@@ -16,7 +16,10 @@ What you need to install the program:
 ```
 1. C++ compiler (GCC, ...)
 2. make tool (for easier compilation)
-3. Linux environment (Options include Bash Shell on Windows 10 or Linux virtualization software [Virtual Box] or native environment)
+3. Linux environment 
+     (Options include Bash Shell on Windows 10 
+        or Linux virtualization software [Virtual Box] 
+        or native environment)
 ```
 
 ### Installing
