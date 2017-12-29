@@ -92,14 +92,17 @@ int main(int argc, char** argv) {
 	pthread_attr_t attr;
 	void *status;
 
-	/* Key Values */
-	// 1441151880758559 keys per thread
+	/* Sample Key space between zero and a million 
+	 *  or x0000000000000000 - x00000000000F423F (999,999 since the for loop excludes the last digit or key in each thread)
+	 *
+	*/
+	// 200,000 keys per thread
 	long long indexes [5][2] = {
-			{43234559931156764, 44675708303515323},
-			{44675708891915323, 46116860184273882},
-			{46116860772673882, 47558012065032441},
-			{47558012653432441, 48999163945791000},
-			{48999164534191000, 50440315826549557}
+			{0, 200000},
+			{200000, 400000},
+			{400000, 600000},
+			{600000, 800000},
+			{800000, 1000000}
 	};
 
 	/* Multi-threading Part
