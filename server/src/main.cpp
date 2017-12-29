@@ -1,3 +1,5 @@
+// From https://github.com/rbaron/multichat
+
 #include <iostream>
 #include "mythread.h"
 #include "server.h"
