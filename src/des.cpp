@@ -47,7 +47,7 @@ void *checkKeys(void *threadarg) {
 	string key;
 	long long startIndex = t_data->startIndex;
 	long long endIndex = t_data->endIndex;
-    long long previous = startIndex;
+    	long long previous = startIndex;
 	string cipherText = t_data->cipherText;
 
 	for (long long i = startIndex; i < endIndex; ++i) {
@@ -67,7 +67,7 @@ void *checkKeys(void *threadarg) {
 		cipherString = *(enc.getCipherText());
 
 		if (  cipherText == cipherString ) {
-            key = *util.getHexFromBinary(key);
+            		key = *util.getHexFromBinary(key);
 			threadClient.informServer(key);
 			cout << t_data->thread_id << endl;
 			cout << key << endl;
