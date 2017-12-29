@@ -33,19 +33,26 @@ points to the source folder.
 
 
 ```
-1. Go to the **Server/bin** folder and execute the "server' executable (this serves as the server for the clients connecting so make sure
-you run the server exectuable on the machine that should be the server).
+1. Go to the "server/bin" folder and execute the "server" executable (this serves as the server for the clients connecting so make sure you run the server exectuable on the machine that should be the server). If the "server" executable is not recognized, then type
+"make" in the terminal with the path pointing to the server folder to create an executable suitable for your operating system.
 
 2. Fill out the keyspace of the client program in "src/des.cpp". This is just a 2D array to be used by the Pthreads.
 
 3. Fill out the IP address of the server in "src/client.cpp" so that the client program can connect to it. The IP address of the server
- can be found by typing "ifconfig" (without the quotes) on a Linux environment.
+ can be found by typing "ifconfig" (without the quotes) on the server's terminal.
 
 4. Compile the program by typing "make". Install "make" if it is not already installed.
 
-5. Run the client program by executing the "des" executable in the bin folder.
+5. Run the client program by executing the "des" executable in the bin folder. Type "./bin/des" in the terminal to execute.
 
 ```
+
+Note: The server program was not written by me so for further information, please go here:
+
+https://github.com/rbaron/multichat
+
+
+Happy Bruteforcing....
 
 
 ## Author
