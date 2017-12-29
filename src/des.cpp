@@ -1,6 +1,6 @@
 //============================================================================
 // Name        : DES.cpp
-// Author      : Team 12345qwerty
+// Author      : Mussie Habtemichael
 // Version     :
 // Copyright   :
 // Description : DES in C++, Ansi-style
