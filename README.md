@@ -20,6 +20,7 @@ What you need to install the program:
      (Options include Bash Shell on Windows 10 
         or Linux virtualization software [Virtual Box] 
         or native environment)
+4. IDE or source editor (Sublime Text, Atom, etc...) [optional since terminal tools can be used]
 ```
 
 ### Installing
