@@ -1,4 +1,4 @@
-# DES_Brute-force-Attack
+# DES-Brute-force-Attack
 
 This program allows for a DES brute-force attack over a network between clients and a server. The program can run on multiple client
 machines in a client-server model. The program uses multiple POSIX threads to divide up the brute-force work. Every millionth
